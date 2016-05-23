@@ -1,0 +1,61 @@
+body{
+  background-color:#7cc5b7;
+  font-family: 'Montserrat';
+}
+h1{
+	font-weight: 700;
+	font-size: 36px;
+	padding-top: 50px;
+	font-variant-caps: initial;
+	padding-bottom: 20px;
+	  color:#575757;
+
+
+}
+button.btn{
+	border: 3px solid white;
+	background:transparent;
+
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px;
+	transition: background 1s; 
+
+}
+button.btn:hover
+{
+	background:white;
+	color:#7cc5b7;
+
+}
+form input {
+	border: 3px solid white;
+	background: transparent;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	  color:#575757;
+	 transition: background 1s; 
+
+}
+
+form input:hover{
+	box-shadow: none;
+	outline: none;
+	background:white;
+	border: 3px solid white;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  white;
+}
+.posts{margin-top: 30px;
+list-style: none;
+padding-left: 0px;}
+
+li{
+	font-size: 20px;
+	background:white;
+	padding: 10px;
+}
+
